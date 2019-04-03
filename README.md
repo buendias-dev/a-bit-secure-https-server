@@ -18,7 +18,7 @@ $ ./test.sh
 ```
 3. **How to configure**
 
-Modify a-bit-secure-https-server.js
+Edit config.js
 ```
 const config = {
     publicCAFile : 'certs/ca_pub.pem',
@@ -34,6 +34,9 @@ const config = {
     }
 }
 ```
+
+Edit routes/secure_route.js
+
 4. **How to build certificates**
 ```
 $ cd certs
